@@ -5,31 +5,34 @@
 </ion-header>
 
 <ion-content class="ion-padding" [fullscreen]="true">
-  <div class="ion-text-center" >
-    <img src="../../assets/TT/pngtree.png" style="width: 200px; height: auto;">
+  <div class="ion-text-center">
+    <img src="../../assets/TT/pngtree.png" style="width: 200px; height: auto" />
   </div>
-   <ion-card color="success" class="ion-padding" shape="round">
-
+  <ion-card color="tertiary" class="ion-padding" shape="round">
     <ion-item>
       <ion-input label="น้ำหนัก" placeholder="KG"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-input  label="ส่วนสูง" placeholder="CM"></ion-input>
+      <ion-input label="ส่วนสูง" placeholder="CM"></ion-input>
     </ion-item>
-    <br>
-    <div class="ion-text-center">
-    </div>
+    <br />
+    <div class="ion-text-center"></div>
     <ion-button size="large" expand="block" shape="round" color="danger">
       คำนวน
     </ion-button>
-   </ion-card>
+  </ion-card>
+  <ion-card color="tertiary" class="ion-text-center">
+    <ion-card-header>
+      <ion-card-subtitle>ผลลัพธ์</ion-card-subtitle>
+      <ion-card-title>18.5</ion-card-title>
+    </ion-card-header>
+  </ion-card>
 
-   <ion-button size="large" expand="block" color="tertiary">
-    ผลลัพธ์
-  </ion-button>
-
-  <ion-button size="large" expand="block" color="tertiary">
-    แปรผล
-  </ion-button>
+  <ion-card color="tertiary" class="ion-text-center">
+    <ion-card-header>
+      <ion-card-subtitle>แปรผล</ion-card-subtitle>
+      <ion-card-title>อยู่ในเกณฑ์ปกติ</ion-card-title>
+    </ion-card-header>
+  </ion-card>
 </ion-content>
